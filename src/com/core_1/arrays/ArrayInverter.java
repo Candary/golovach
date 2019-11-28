@@ -1,6 +1,6 @@
 //чистая функция отзеркаливания массива
 
-package src.com.core_1.arrays;
+package com.core_1.arrays;
 
 public class ArrayInverter {
     public static void invert(int[] arr) {

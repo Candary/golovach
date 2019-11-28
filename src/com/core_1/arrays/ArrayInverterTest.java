@@ -1,8 +1,6 @@
-package src.com.core_1.arrays;
+package com.core_1.arrays;
 
 import java.util.Arrays;
-
-import static src.com.core_1.arrays.ArrayInverter.invert;
 
 public class ArrayInverterTest {
     public static void main(String[] args) {
@@ -10,22 +8,22 @@ public class ArrayInverterTest {
 
         arr = new int[]{};
         System.out.print(Arrays.toString(arr) + " -> ");
-        invert(arr);
+        ArrayInverter.invert(arr);
         System.out.println(Arrays.toString(arr));
 
         arr = new int[]{0};
         System.out.print(Arrays.toString(arr) + " -> ");
-        invert(arr);
+        ArrayInverter.invert(arr);
         System.out.println(Arrays.toString(arr));
 
         arr = new int[]{0, 1};
         System.out.print(Arrays.toString(arr) + " -> ");
-        invert(arr);
+        ArrayInverter.invert(arr);
         System.out.println(Arrays.toString(arr));
 
         arr = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
         System.out.print(Arrays.toString(arr) + " -> ");
-        invert(arr);
+        ArrayInverter.invert(arr);
         System.out.println(Arrays.toString(arr));
     }
 }

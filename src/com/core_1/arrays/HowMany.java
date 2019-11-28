@@ -1,6 +1,6 @@
 //Напишите программу HowMany.java, которая определит, сколько слов Вы ввели с консоли.
 
-package src.com.core_1.arrays;
+package com.core_1.arrays;
 
 import java.util.Scanner;
 

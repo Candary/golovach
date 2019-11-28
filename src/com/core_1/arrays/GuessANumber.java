@@ -1,4 +1,4 @@
-package src.com.core_1.arrays;
+package com.core_1.arrays;
 
 import java.util.Scanner;
 import java.lang.Math;

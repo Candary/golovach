@@ -1,5 +1,5 @@
 //Перебрать числа в обратном порядке через один:
-package src.com.core_1.arrays;
+package com.core_1.arrays;
 
 public class TestFor30 {
     public static void main(String[] args) {
